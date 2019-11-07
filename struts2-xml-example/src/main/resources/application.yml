@@ -1,0 +1,8 @@
+spring.mvc.view.prefix: /WEB-INF/content/
+spring.mvc.view.suffix: .jsp
+logging:
+  level:
+    root: DEBUG
+    org:
+      apache:
+        tomcat: INFO

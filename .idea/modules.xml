@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/struts2-annotation-example/src/main/annotation.iml" filepath="$PROJECT_DIR$/struts2-annotation-example/src/main/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migration-examples.iml" filepath="$PROJECT_DIR$/migration-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2-annotation-example/with-annotations.iml" filepath="$PROJECT_DIR$/struts2-annotation-example/with-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2-xml-example/with-xml.iml" filepath="$PROJECT_DIR$/struts2-xml-example/with-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2-xml-example/src/main/xml.iml" filepath="$PROJECT_DIR$/struts2-xml-example/src/main/xml.iml" />
+    </modules>
+  </component>
+</project>
