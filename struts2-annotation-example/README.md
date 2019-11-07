@@ -125,33 +125,87 @@ public class FilterRegistrationConfig {
         registrationBean.setFilter(struts);
         registrationBean.setUrlPatterns(Arrays.asList("/*"));
         registrationBean.setOrder(1);
+        registrationBean.setInitParameters(Collections.singletonMap("actionPackages", "example.actions"));
         return registrationBean;
     }
 }
 ```
-4. Annotate all the Action Classes and depending components to be autowired as `@Component`.
-5. Add a `struts.xml` to the `src/main/resources` path.
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts PUBLIC
-        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
-        "http://struts.apache.org/dtds/struts-2.0.dtd">
-
-<struts>
-
-    <constant name="struts.devMode" value="true" />
-    <constant name="struts.objectFactory" value="spring" />
-
-    <package name="default" extends="struts-default" namespace="/">
-        <action name="hello" class="example.actions.HelloAction" method="execute">
-            <result name="success">WEB-INF/content/hello-success.jsp</result>
-        </action>
-        <action name="register-input" class="example.actions.RegisterAction" method="input">
-            <result name="input">WEB-INF/content/register-input.jsp</result>
-        </action>
-        <action name="register" class="example.actions.RegisterAction" method="execute">
-            <result name="success">WEB-INF/content/register-success.jsp</result>
-        </action>
-    </package>
-</struts>
+* Annotate all the Action Classes and depending components to be autowired as `@Component`.
+* Add a file in `src/main/resources`. Name: `struts.properties`
+```properties
+struts.convention.exclude.parentClassLoader=false
+struts.convention.action.fileProtocols=jar,code-source
 ```
+* Replace the actions and results from struts.xml with corresponding annotations in the Action classes. 
+
+`HelloAction.java`
+```java
+@Service
+@Namespaces({
+        @Namespace("/")
+})
+public class HelloAction extends ActionSupport {
+
+    private static final long serialVersionUID = 1L;
+
+    private static final Logger log = LogManager.getLogger(HelloAction.class);
+
+    private String message;
+
+    @Action(value = "hello", results = {@Result(name = "success", location = "/WEB-INF/content/hello-success.jsp")})
+    public String execute() throws Exception {
+        log.info("In execute method of class Hello");
+        message = "Hello from Struts 2 with no XML configuration.";
+        return SUCCESS;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+}
+
+```
+
+`RegisterAction.java`
+
+```java
+@Service
+@Namespaces({
+        @Namespace("/")
+})
+public class RegisterAction extends ActionSupport {
+
+    private static final long serialVersionUID = 1L;
+
+    private static final Logger log = LogManager.getLogger(RegisterAction.class);
+
+    @Autowired
+    private Person personBean;
+
+    @Action(value = "register-input", results = {@Result(name = "input", location = "/WEB-INF/content/register-input.jsp")})
+    public String input() throws Exception {
+        log.info("In input method of class RegisterAction");
+        return INPUT;
+    }
+
+    @Action(value = "register", results = {@Result(name = "success", location = "/WEB-INF/content/register-success.jsp")})
+    public String execute() throws Exception {
+        log.info("In execute method of class RegisterAction");
+        return SUCCESS;
+    }
+
+    public Person getPersonBean() {
+        return personBean;
+    }
+
+    public void setPersonBean(Person person) {
+        personBean = person;
+    }
+}
+```
+
+* Remove the `struts.xml` file

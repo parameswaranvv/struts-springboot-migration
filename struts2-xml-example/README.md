@@ -129,8 +129,8 @@ public class FilterRegistrationConfig {
     }
 }
 ```
-4. Annotate all the Action Classes and depending components to be autowired as `@Component`.
-5. Add a `struts.xml` to the `src/main/resources` path.
+* Annotate all the Action Classes and depending components to be autowired as `@Component`.
+* Add a `struts.xml` to the `src/main/resources` path.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE struts PUBLIC
