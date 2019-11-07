@@ -6,3 +6,9 @@ logging:
     org:
       apache:
         tomcat: INFO
+#struts:
+#  convention:
+#    exclude:
+#      parentClassLoader: "false"
+#    action:
+#      fileProtocols: "jar,code-source"

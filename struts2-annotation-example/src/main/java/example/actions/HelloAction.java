@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
  * @author bruce phillips
  */
 @Service
+@Namespaces({
+        @Namespace("/")
+})
 public class HelloAction extends ActionSupport {
 
     private static final long serialVersionUID = 1L;
@@ -21,7 +24,7 @@ public class HelloAction extends ActionSupport {
 
     private String message;
 
-    @Action(value = "hello")
+    @Action(value = "hello", results = {@Result(name = "success", location = "/WEB-INF/content/hello-success.jsp")})
     public String execute() throws Exception {
         log.info("In execute method of class Hello");
         message = "Hello from Struts 2 with no XML configuration.";
