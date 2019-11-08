@@ -8,3 +8,5 @@
 The original Struts2 example (which has been migrated in this repo) is located here: https://github.com/apache/struts-examples/tree/master/annotations
 
 ### Struts 1 to Spring Boot
+
+* With Struts 1, making minimalistic changes to migrate to Spring Boot
