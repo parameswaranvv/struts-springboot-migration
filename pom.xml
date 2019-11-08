@@ -14,5 +14,6 @@
         <module>struts2-xml-example</module>
         <module>struts2-annotation-example</module>
         <module>struts1-example</module>
+        <module>struts1-cookbook-example</module>
     </modules>
 </project>
