@@ -11,7 +11,8 @@
     </properties>
     <packaging>pom</packaging>
     <modules>
-    <module>struts2-xml-example</module>
-    <module>struts2-annotation-example</module>
-</modules>
+        <module>struts2-xml-example</module>
+        <module>struts2-annotation-example</module>
+        <module>struts1-example</module>
+    </modules>
 </project>

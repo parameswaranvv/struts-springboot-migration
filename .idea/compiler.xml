@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="with-annotations" />
+        <module name="struts1" />
         <module name="with-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="migration-examples" target="1.6" />
+      <module name="struts1" target="1.6" />
+      <module name="struts1-example" target="1.6" />
       <module name="with-annotations" target="1.6" />
       <module name="with-xml" target="1.6" />
     </bytecodeTargetLevel>

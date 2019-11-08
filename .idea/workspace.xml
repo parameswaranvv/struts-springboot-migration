@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9450ae5d-cb8c-4bc1-87e0-c26362a36fb6" name="Default Changelist" comment="">
+    <list default="true" id="02d5133e-47fa-4cb3-b25b-09674d8aa1ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/struts1-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/ApplicationContextAwareAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts1-example/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts1-example/struts1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struts2-xml-example/with-xml (2).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts2-annotation-example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/struts2-annotation-example/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts2-annotation-example/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts2-xml-example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/struts2-xml-example/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts2-xml-example/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struts2-xml-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/struts2-xml-example/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/struts2-xml-example/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/struts2-annotation-example/target/" />
+    <ignored path="$PROJECT_DIR$/struts1-example/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/struts2-xml-example/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,69 +32,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/resources/struts.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="28" selection-end-line="1" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="210" column="30" selection-start-line="210" selection-start-column="30" selection-end-line="210" selection-end-column="30" />
-                <folding>
-                  <element signature="e#618#619#0" expanded="true" />
-                  <element signature="e#656#657#0" expanded="true" />
-                  <element signature="e#689#690#0" expanded="true" />
-                  <element signature="e#719#720#0" expanded="true" />
-                  <element signature="e#839#840#0" expanded="true" />
-                  <element signature="e#872#873#0" expanded="true" />
-                  <element signature="e#919#920#0" expanded="true" />
-                  <element signature="e#954#955#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-xml-example/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/struts1-example/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,33 +45,94 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/actions/RegisterAction.java">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF/struts-config.xml">
+          <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" selection-start-line="16" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/actions/HelloAction.java">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/FilterRegistrationConfig.java">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-end-line="20" />
+            <state relative-caret-position="24">
+              <caret line="16" selection-start-line="16" selection-end-line="42" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/ApplicationContextAwareAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/form/LoginForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>web.xml</find>
+      <find>web</find>
+      <find>struts</find>
+      <find>moduleConfig</find>
+      <find>Action class</find>
+      <find>.class</find>
+      <find>actions</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,15 +140,51 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/struts2-annotation-example/src/main/resources/struts.properties" />
-        <option value="$PROJECT_DIR$/struts2-annotation-example/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/actions/HelloAction.java" />
-        <option value="$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/actions/RegisterAction.java" />
-        <option value="$PROJECT_DIR$/struts2-annotation-example/README.md" />
-        <option value="$PROJECT_DIR$/struts2-xml-example/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/actions/HelloAction.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/struts2-xml-example/pom.xml" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/resources/struts-config.xml" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/form/LoginForm.java" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/AutowireCapableAction.java" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/AbstractAutowireCapableAction.java" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/webapp/loginSuccess.jsp" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/webapp/loginFail.jsp" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/StrutsConfiguration.java" />
+        <option value="$PROJECT_DIR$/struts1-example/pom.xml" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/ApplicationContextAwareAction.java" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/Application.java" />
+        <option value="$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/LoginAction.java" />
+        <option value="$PROJECT_DIR$/struts1-example/README.md" />
       </list>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struts1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struts1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -149,6 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,24 +206,180 @@
               <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts1-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-annotation-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struts-spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-xml-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struts-spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/struts1-example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/struts1-example" />
+      <recent name="$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/struts1-example/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,22 +393,33 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="struts1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.struts1.Application" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9450ae5d-cb8c-4bc1-87e0-c26362a36fb6" name="Default Changelist" comment="" />
-      <created>1573140633486</created>
+      <changelist id="02d5133e-47fa-4cb3-b25b-09674d8aa1ed" name="Default Changelist" comment="" />
+      <created>1573156944828</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573140633486</updated>
-      <workItem from="1573140634841" duration="1582000" />
+      <updated>1573156944828</updated>
+      <workItem from="1573156946199" duration="9194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1582000" />
+    <option name="totallyTimeSpent" value="9194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="964" extended-state="0" />
@@ -219,18 +436,19 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32979977" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32979977" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32979977" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven" weight="0.32967034" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
@@ -241,94 +459,606 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32979977" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32979977" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32979977" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32967034" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/ActionServlet.java</url>
+          <line>1833</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/model/Person.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/DispatchAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="-2354">
+          <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/actions/HelloAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-xml-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-annotation-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="89" column="21" selection-start-line="64" selection-start-column="8" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10.jar!/org/apache/struts/action/ActionServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4520">
+          <caret line="896" column="30" selection-start-line="896" selection-start-column="19" selection-end-line="896" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/ActionServletWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.8/commons-digester-1.8.jar!/org/apache/commons/digester/Digester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2518">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/FilterRegistrationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/resources/struts.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/actions/HelloAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/java/example/actions/RegisterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" selection-start-line="16" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="210" column="30" selection-start-line="210" selection-start-column="30" selection-end-line="210" selection-end-column="30" />
-            <folding>
-              <element signature="e#618#619#0" expanded="true" />
-              <element signature="e#656#657#0" expanded="true" />
-              <element signature="e#689#690#0" expanded="true" />
-              <element signature="e#719#720#0" expanded="true" />
-              <element signature="e#839#840#0" expanded="true" />
-              <element signature="e#872#873#0" expanded="true" />
-              <element signature="e#919#920#0" expanded="true" />
-              <element signature="e#954#955#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-xml-example/README.txt">
+    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/webapp/WEB-INF/content/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-xml-example/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/struts2-annotation-example/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/StrutsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/event/ContextRefreshedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/AbstractAutowireCapableAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE-sources.jar!/org/springframework/boot/context/event/ApplicationReadyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/config/ActionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14786">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/config/impl/ModuleConfigImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="433" column="14" lean-forward="true" selection-start-line="433" selection-start-column="14" selection-end-line="433" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/config/ModuleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="201" column="12" lean-forward="true" selection-start-line="201" selection-start-column="12" selection-end-line="201" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="165" column="9" lean-forward="true" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/ServletContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="673" column="19" lean-forward="true" selection-start-line="673" selection-start-column="19" selection-end-line="673" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/util/RequestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/RequestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="280" column="59" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/ActionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="640" column="43" lean-forward="true" selection-start-line="640" selection-start-column="43" selection-end-line="640" selection-end-column="43" />
+          <folding>
+            <element signature="docComment;class#ActionServlet#0" />
+            <element signature="e#9270#9353#0" />
+            <element signature="e#9511#9649#0" />
+            <element signature="e#9715#9891#0" />
+            <element signature="e#9976#10124#0" />
+            <element signature="e#10176#10351#0" />
+            <element signature="e#10400#10474#0" />
+            <element signature="e#10528#10631#0" />
+            <element signature="e#10717#10961#0" />
+            <element signature="e#11736#11853#0" />
+            <element signature="e#11927#12052#0" />
+            <element signature="e#12180#12321#0" />
+            <element signature="e#12180#13581#0" />
+            <element signature="e#12384#12453#1" />
+            <element signature="e#12846#12921#1" />
+            <element signature="e#12935#12991#0" />
+            <element signature="e#13012#13575#0" />
+            <element signature="e#13094#13133#0" />
+            <element signature="e#13328#13565#0" />
+            <element signature="e#13587#13874#0" />
+            <element signature="e#13587#16511#0" />
+            <element signature="e#14046#14112#0" />
+            <element signature="e#14224#15878#0" />
+            <element signature="e#15015#15761#1" />
+            <element signature="e#15130#15179#1" />
+            <element signature="e#15911#15944#0" />
+            <element signature="e#15965#16505#0" />
+            <element signature="e#15979#16045#0" />
+            <element signature="e#16517#16816#0" />
+            <element signature="e#16517#17539#0" />
+            <element signature="e#17028#17360#1" />
+            <element signature="e#17141#17182#1" />
+            <element signature="e#17295#17350#1" />
+            <element signature="e#17545#17855#0" />
+            <element signature="e#18030#18341#0" />
+            <element signature="e#18030#18511#0" />
+            <element signature="e#18598#18876#0" />
+            <element signature="e#18598#19302#0" />
+            <element signature="e#18985#19016#1" />
+            <element signature="e#19068#19296#1" />
+            <element signature="e#19108#19239#1" />
+            <element signature="e#19308#19577#0" />
+            <element signature="e#19746#19893#0" />
+            <element signature="e#19746#21193#0" />
+            <element signature="e#20086#20142#1" />
+            <element signature="e#20219#21187#1" />
+            <element signature="e#20387#20428#1" />
+            <element signature="e#20547#20624#1" />
+            <element signature="e#20871#21177#1" />
+            <element signature="e#20930#21046#1" />
+            <element signature="e#21199#21333#0" />
+            <element signature="e#21421#21505#0" />
+            <element signature="e#21581#21876#0" />
+            <element signature="e#21581#22227#0" />
+            <element signature="e#22078#22195#1" />
+            <element signature="e#22233#22921#0" />
+            <element signature="e#23431#23665#0" />
+            <element signature="e#23900#24238#0" />
+            <element signature="e#24471#24592#0" />
+            <element signature="e#24471#24854#0" />
+            <element signature="e#24773#24848#1" />
+            <element signature="e#24860#25318#0" />
+            <element signature="e#24860#26296#0" />
+            <element signature="e#25460#25590#1" />
+            <element signature="e#26027#26162#1" />
+            <element signature="e#26302#26683#0" />
+            <element signature="e#26302#27337#0" />
+            <element signature="e#26807#27180#0" />
+            <element signature="e#26897#27071#1" />
+            <element signature="e#27077#27170#1" />
+            <element signature="e#27213#27246#0" />
+            <element signature="e#27275#27331#0" />
+            <element signature="e#27343#27623#0" />
+            <element signature="e#27343#27971#0" />
+            <element signature="e#27744#27788#0" />
+            <element signature="e#27811#27876#0" />
+            <element signature="e#27900#27965#0" />
+            <element signature="e#27977#28267#0" />
+            <element signature="e#27977#28512#0" />
+            <element signature="e#28518#28810#0" />
+            <element signature="e#28518#29113#0" />
+            <element signature="e#29119#29497#0" />
+            <element signature="e#29119#29840#0" />
+            <element signature="e#29846#30265#0" />
+            <element signature="e#29846#30624#0" />
+            <element signature="e#30630#30869#0" />
+            <element signature="e#30630#33199#0" />
+            <element signature="e#30996#31112#1" />
+            <element signature="e#31399#33193#1" />
+            <element signature="e#31417#32845#0" />
+            <element signature="e#31668#31723#0" />
+            <element signature="e#31879#32028#0" />
+            <element signature="e#32049#32783#0" />
+            <element signature="e#32094#32154#0" />
+            <element signature="e#32314#32765#0" />
+            <element signature="e#32873#32913#0" />
+            <element signature="e#32934#33183#0" />
+            <element signature="e#33205#33446#0" />
+            <element signature="e#33205#35008#0" />
+            <element signature="e#33575#33693#1" />
+            <element signature="e#33855#33979#1" />
+            <element signature="e#34032#35002#1" />
+            <element signature="e#34210#34332#1" />
+            <element signature="e#34505#34763#1" />
+            <element signature="e#34611#34749#1" />
+            <element signature="e#34777#34844#0" />
+            <element signature="e#34926#34992#1" />
+            <element signature="e#35014#35294#0" />
+            <element signature="e#35014#36067#0" />
+            <element signature="e#35447#35865#0" />
+            <element signature="e#35501#35855#1" />
+            <element signature="e#35545#35679#1" />
+            <element signature="e#35893#35925#0" />
+            <element signature="e#35946#36061#0" />
+            <element signature="e#36073#36678#0" />
+            <element signature="e#36073#38698#0" />
+            <element signature="e#36914#36991#1" />
+            <element signature="e#37163#37297#1" />
+            <element signature="e#37415#38664#1" />
+            <element signature="e#37550#38654#1" />
+            <element signature="e#37778#38303#0" />
+            <element signature="e#38193#38285#1" />
+            <element signature="e#38324#38412#0" />
+            <element signature="e#38704#38918#0" />
+            <element signature="e#38704#39804#0" />
+            <element signature="e#39046#39162#1" />
+            <element signature="e#39319#39440#1" />
+            <element signature="e#39492#39798#1" />
+            <element signature="e#39662#39788#1" />
+            <element signature="e#39810#40380#0" />
+            <element signature="e#39810#41243#0" />
+            <element signature="e#40561#41045#0" />
+            <element signature="e#40618#41035#1" />
+            <element signature="e#40662#40799#1" />
+            <element signature="e#41073#41105#0" />
+            <element signature="e#41126#41237#0" />
+            <element signature="e#41249#42140#0" />
+            <element signature="e#41249#44650#0" />
+            <element signature="e#42414#42494#1" />
+            <element signature="e#42631#42758#1" />
+            <element signature="e#42792#42987#1" />
+            <element signature="e#42806#42870#0" />
+            <element signature="e#43021#43153#1" />
+            <element signature="e#43277#44613#1" />
+            <element signature="e#43418#44603#1" />
+            <element signature="e#43650#43955#0" />
+            <element signature="e#43976#44064#0" />
+            <element signature="e#44171#44328#1" />
+            <element signature="e#44334#44539#1" />
+            <element signature="e#44656#44905#0" />
+            <element signature="e#44656#45843#0" />
+            <element signature="e#45041#45157#1" />
+            <element signature="e#45330#45461#1" />
+            <element signature="e#45515#45837#1" />
+            <element signature="e#45691#45827#1" />
+            <element signature="e#45849#46428#0" />
+            <element signature="e#45849#47313#0" />
+            <element signature="e#46615#47111#0" />
+            <element signature="e#46674#47101#1" />
+            <element signature="e#46718#46857#1" />
+            <element signature="e#47139#47171#0" />
+            <element signature="e#47192#47307#0" />
+            <element signature="e#47319#48154#0" />
+            <element signature="e#47319#50668#0" />
+            <element signature="e#48438#48520#1" />
+            <element signature="e#48659#48739#1" />
+            <element signature="e#48773#48983#1" />
+            <element signature="e#48787#48846#0" />
+            <element signature="e#49017#49158#1" />
+            <element signature="e#49284#50629#1" />
+            <element signature="e#49426#50619#1" />
+            <element signature="e#49662#49995#0" />
+            <element signature="e#50016#50104#0" />
+            <element signature="e#50215#50380#1" />
+            <element signature="e#50386#50551#1" />
+            <element signature="e#50674#50919#0" />
+            <element signature="e#50674#52543#0" />
+            <element signature="e#51046#51168#1" />
+            <element signature="e#51337#51471#1" />
+            <element signature="e#51528#52537#1" />
+            <element signature="e#51601#51663#0" />
+            <element signature="e#51816#52071#1" />
+            <element signature="e#51919#52057#1" />
+            <element signature="e#52255#52527#1" />
+            <element signature="e#52365#52513#1" />
+            <element signature="e#52549#52826#0" />
+            <element signature="e#52549#54268#0" />
+            <element signature="e#52983#54088#0" />
+            <element signature="e#53039#53399#1" />
+            <element signature="e#53083#53219#1" />
+            <element signature="e#53573#53719#1" />
+            <element signature="e#53902#54078#1" />
+            <element signature="e#54116#54148#0" />
+            <element signature="e#54169#54262#0" />
+            <element signature="e#54274#54807#0" />
+            <element signature="e#54274#57209#0" />
+            <element signature="e#55040#55119#1" />
+            <element signature="e#55289#55431#1" />
+            <element signature="e#55558#57173#1" />
+            <element signature="e#55697#57163#1" />
+            <element signature="e#55927#56804#0" />
+            <element signature="e#56415#56509#1" />
+            <element signature="e#56688#56786#1" />
+            <element signature="e#56825#56913#0" />
+            <element signature="e#57215#57494#0" />
+            <element signature="e#57215#58722#0" />
+            <element signature="e#57721#58716#1" />
+            <element signature="e#57823#57864#1" />
+            <element signature="e#57904#58099#1" />
+            <element signature="e#58728#59211#0" />
+            <element signature="e#58728#60200#0" />
+            <element signature="e#59298#59346#0" />
+            <element signature="e#59427#59475#1" />
+            <element signature="e#59864#60069#1" />
+            <element signature="e#59969#60059#1" />
+            <element signature="e#60206#60417#0" />
+            <element signature="e#60206#61582#0" />
+            <element signature="e#60589#60627#1" />
+            <element signature="e#60729#61576#1" />
+            <element signature="e#60806#60895#1" />
+            <element signature="e#60901#61044#1" />
+            <element signature="e#61084#61204#1" />
+            <element signature="e#61222#61404#0" />
+            <element signature="e#61425#61566#0" />
+            <element signature="e#61588#61761#0" />
+            <element signature="e#61588#62137#0" />
+            <element signature="e#62060#62103#1" />
+            <element signature="e#62143#62365#0" />
+            <element signature="e#62143#62812#0" />
+            <element signature="e#62446#62532#0" />
+            <element signature="e#62568#62806#0" />
+            <element signature="e#62818#63156#0" />
+            <element signature="e#62818#64006#0" />
+            <element signature="e#63304#63868#0" />
+            <element signature="e#63437#63489#1" />
+            <element signature="e#63692#63858#1" />
+            <element signature="e#63889#64000#0" />
+            <element signature="e#64012#64190#0" />
+            <element signature="e#64012#65740#0" />
+            <element signature="e#64370#64409#1" />
+            <element signature="e#64419#64484#0" />
+            <element signature="e#64808#64851#1" />
+            <element signature="e#64878#65734#1" />
+            <element signature="e#65746#66066#0" />
+            <element signature="e#65746#68475#0" />
+            <element signature="e#66594#66793#1" />
+            <element signature="e#66699#66783#1" />
+            <element signature="e#67176#67261#1" />
+            <element signature="e#67392#67540#1" />
+            <element signature="e#67554#67600#0" />
+            <element signature="e#67623#67740#0" />
+            <element signature="e#67764#67881#0" />
+            <element signature="e#67890#68116#0" />
+            <element signature="e#67908#67954#0" />
+            <element signature="e#67977#68106#0" />
+            <element signature="e#68215#68337#1" />
+            <element signature="e#68375#68469#1" />
+            <element signature="e#68481#69017#0" />
+            <element signature="e#68481#71150#0" />
+            <element signature="e#69212#69278#1" />
+            <element signature="e#69394#70948#0" />
+            <element signature="e#69487#70938#1" />
+            <element signature="e#69604#69740#1" />
+            <element signature="e#69746#69838#1" />
+            <element signature="e#69879#69925#1" />
+            <element signature="e#69970#70059#1" />
+            <element signature="e#70099#70851#1" />
+            <element signature="e#70147#70343#1" />
+            <element signature="e#70455#70661#1" />
+            <element signature="e#70667#70833#1" />
+            <element signature="e#70721#70811#1" />
+            <element signature="e#70857#70924#1" />
+            <element signature="e#70981#71036#0" />
+            <element signature="e#71059#71114#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/loginFail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/loginSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="78" selection-start-line="78" selection-end-line="98" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/ApplicationContextAwareAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF/struts-config.xml">
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/form/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/src/main/java/example/struts1/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" selection-start-line="16" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts1-example/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
@@ -384,7 +1114,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|with-annotations</last-edited>
+          <last-edited>struts1-example</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

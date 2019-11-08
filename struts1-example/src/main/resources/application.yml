@@ -1,0 +1,13 @@
+server.mvc.servlet.path: "/api"
+logging:
+  level:
+    org:
+      apache:
+        struts: debug
+    root: info
+
+spring.mvc.view.prefix: /WEB-INF/
+spring.mvc.view.suffix: .jsp
+
+helloworld:
+  message: dummy dummy
