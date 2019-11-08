@@ -1,6 +1,7 @@
 # struts-springboot-migration 
 
-## This repo outlines the steps needed to migrate a Struts Application to Spring Boot, in two ways.
+## This repo outlines the steps needed to migrate a Struts Application to Spring Boot
+
 ### Struts 2 to Spring Boot
 * With Struts.xml configuration and Spring Boot configuration.
 * With completely annotation driven Struts Configuration and Spring Boot
